@@ -1,0 +1,17 @@
+1 FUNCTION main :
+2 READ t1
+3 v1 := t1
+4 t2 := #0
+5 IF v1 > t2 GOTO label1
+6 IF v1 < t2 GOTO label2
+7 WRITE t2
+8 GOTO label3
+9 LABEL label1 :
+10 t3 := #1
+11 WRITE t3
+12 GOTO label3
+13 LABEL label2 :
+14 t6 := #-1
+15 WRITE t6
+16 LABEL label3 :
+17 RETURN t2

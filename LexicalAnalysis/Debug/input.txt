@@ -1,0 +1,7 @@
+int main(){
+	int a = 0;
+	return 0;
+if(){
+a = a+1;
+}
+}//dasfdafdafdas
